@@ -1,0 +1,13 @@
+// Fonts for your site
+
+// for example
+@font-face {
+	font-family: "Roboto";
+	font-weight: 400;
+	src: 	local(SourceSansPro),
+				url('../fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'), 
+				url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
+				url('../fonts/RobotoRegular/RobotoRegular.ttf') format('ttf');
+	font-display: swap;
+	font-style: normal;
+}
