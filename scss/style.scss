@@ -3,7 +3,25 @@
 @import "fonts";
 @import "global";
 
+.items-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+.btn {
+	border: none;
+	background: inherit;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.section-title {
+	font-family: $font-title;
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 700;
+}
 // stop write code
 
 @import "media";
